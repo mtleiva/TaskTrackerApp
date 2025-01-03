@@ -20,7 +20,7 @@ function App() {
       // const data = await response.json();
       
       // O con axios:
-      const response = await axios.get('http://localhost:5000/api/tasks');
+      const response = await axios.get('https://localhost:7080/Tasks');
       setTasks(response.data);
     } catch (error) {
       console.error('Error fetching tasks:', error);
@@ -39,7 +39,7 @@ function App() {
       // const data = await response.json();
 
       // O con axios:
-      const response = await axios.post('http://localhost:5000/api/tasks', newTask);
+      const response = await axios.post('https://localhost:7080/Tasks', newTask);
       
       // Actualizar la lista de tareas localmente
       setTasks([...tasks, response.data]);
