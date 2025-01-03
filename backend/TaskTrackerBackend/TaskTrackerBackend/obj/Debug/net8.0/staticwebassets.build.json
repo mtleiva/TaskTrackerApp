@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ZQoLWeOmaVofvJb/v+/scc4kY7CBi5VDrSAr6BtAgps=",
+  "Source": "TaskTrackerBackend",
+  "BasePath": "_content/TaskTrackerBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

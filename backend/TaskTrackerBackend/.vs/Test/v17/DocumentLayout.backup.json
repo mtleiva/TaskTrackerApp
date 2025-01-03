@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|c:\\users\\bmb\\@projects\\tasktrackerapp\\backend\\test\\test\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|solutionrelative:test\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|c:\\users\\bmb\\@projects\\tasktrackerapp\\backend\\test\\test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|solutionrelative:test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|c:\\users\\bmb\\@projects\\tasktrackerapp\\backend\\test\\test\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|solutionrelative:test\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|c:\\users\\bmb\\@projects\\tasktrackerapp\\backend\\test\\test\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CBD2C8-B990-45ED-92B0-0F29B4743D6F}|Test\\Test.csproj|solutionrelative:test\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 176,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Program.cs",
+              "RelativeDocumentMoniker": "Test\\Program.cs",
+              "ToolTip": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Program.cs",
+              "RelativeToolTip": "Test\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T18:04:31.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Test\\Services\\TaskService.cs",
+              "ToolTip": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Services\\TaskService.cs",
+              "RelativeToolTip": "Test\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:53:19.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Task.cs",
+              "RelativeDocumentMoniker": "Test\\Task.cs",
+              "ToolTip": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Task.cs",
+              "RelativeToolTip": "Test\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:47:07.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Test\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\BMB\\@Projects\\TaskTrackerApp\\backend\\Test\\Test\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Test\\Controllers\\TasksController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:41:52.197Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

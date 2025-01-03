@@ -10,11 +10,10 @@ function TaskForm({ onAddTask }) {
       return alert('Please fill in all fields');
     }
 
-    // Objeto que enviamos al backend
     const newTask = { name, description };
     onAddTask(newTask);
 
-    // Limpiar el formulario
+    // Clear the form
     setName('');
     setDescription('');
   };
