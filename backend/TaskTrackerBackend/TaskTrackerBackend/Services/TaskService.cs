@@ -1,36 +1,38 @@
-﻿namespace Test.Services
-{
-    public class TaskService
-    {
-        private static List<Task> _tasks = new List<Task>();
-        private static int _nextId = 1; 
+using System.Collections.Generic;
+using System.Linq;
+using Test.Interfaces; // To implement ITaskService
+using Test;           // To reference Task class
 
-        public TaskService()
+namespace Test.Services
+{
+    public class TaskService : ITaskService
+    {
+        private readonly ITaskRepository _taskRepository;
+
+        public TaskService(ITaskRepository taskRepository)
         {
+            _taskRepository = taskRepository;
         }
-        public void AddTask(Task task)
+
+        public Task AddTask(Task task)
         {
-            task.Id = _nextId++;
-            _tasks.Add(task);
+            // ID generation is now handled by the repository
+            return _taskRepository.AddTask(task);
         }
-        public List<Task> GetTasks()
+
+        public List<Task> GetTasks() // Or IEnumerable<Task> if you changed the interface
         {
-            return _tasks;
+            return _taskRepository.GetTasks().ToList(); // Convert to List if your interface/return type expects List<Task>
         }
+
         public Task? GetTaskById(int id)
         {
-            return _tasks.FirstOrDefault(t => t.Id == id);
+            return _taskRepository.GetTaskById(id);
         }
+
         public bool RemoveTaskById(int id)
         {
-            var taskToRemove = GetTaskById(id);
-            if (taskToRemove != null)
-            {
-                _tasks.Remove(taskToRemove);
-                return true;
-            }
-            return false;
+            return _taskRepository.RemoveTaskById(id);
         }
     }
-
 }
